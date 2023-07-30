@@ -7,12 +7,70 @@
 
 ----
 
-[![Gitter](https://badges.gitter.im/mamoe/mirai.svg)](https://gitter.im/mamoe/mirai?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![MiraiForum](https://img.shields.io/badge/post-on%20MiraiForum-yellow)](https://mirai.mamoe.net)
 
-Kroyf telegram bot是一个在python平台下运行，提供Telegram协议支持的高效率机器人库
+
+## Kroyf telegram bot是一个在python平台下运行，提供Telegram协议支持的高效率机器人库
 
 
 
 </div>
 
+------
+
+## 功能
+
+#### 从MySQL数据库中（全部表）搜索指定关键词,TG上也可以称为"猎魔查询",然后返回给用户。
+
+#### 还带一些按钮功能，可以自行修改
+
+------
+
+## 使用的第三方库
+
+```python
+import asyncio
+import aiomysql
+from aiogram import Bot, Dispatcher, types
+from aiogram.contrib.fsm_storage.memory import MemoryStorage
+```
+
+------
+
+## 变量和变量函数
+
+```python
+# TG BOT变量
+TOKEN = "[Your TG BOT TOKEN]"
+# MySQL变量
+async def create_pool():
+    # 创建连接池
+    pool = await aiomysql.create_pool(
+        host='[Your MySQL Server Host]',
+        port=[Port],
+        user='[User Name]',
+        password='[Password]',
+        db='[Database Name]',
+        autocommit=True
+    )
+    return pool
+```
+
+------
+
+## 下载
+
+## <a href="https://github.com/pake0224/tg_bot/blob/main/Kroyf_TG-BOT.py">点我下载</a>
+
+
+
+------
+
+
+
+# 声明
+
+> 此程序仅用来查询合法数据，开发此程序的目的是为了查询备忘数据和学习用途。因违法操作所带来的一切连带责任作者即本人概不负责。
+
+------
+
+## 好用就给个⭐Star⭐
