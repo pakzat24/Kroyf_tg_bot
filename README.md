@@ -61,7 +61,7 @@ async def create_pool():
 
 ## 下载
 
-## <a href="https://github.com/pake0224/tg_bot/blob/main/Kroyf_TG-BOT.py">点我下载</a>
+## <a href="[https://github.com/pake0224/tg_bot/blob/main/Kroyf_TG-BOT.py](https://github.com/pake0224/Kroyf_tg_bot/releases/tag/TelegramBot)">Release</a>
 
 
 
