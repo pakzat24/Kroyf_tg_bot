@@ -1,3 +1,4 @@
+# @Author: Pakzat
 import asyncio
 import aiomysql
 from aiogram import Bot, Dispatcher, types
