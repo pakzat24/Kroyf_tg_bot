@@ -1,8 +1,7 @@
 <div align="center">
    <img width="160" src="img/logo.png" alt="logo"></br>
 
-
-   <h1 width="95" align="center">Pakzat</h1>
+<h1 width="95" align="center">Pakzat</h1></div>
 
 
 
@@ -81,4 +80,3 @@ async def create_pool():
 ### 最后
 
 好用就给个⭐Star⭐
-
