@@ -1,5 +1,5 @@
 <div align="center">
-   <img width="160" src="img\logo.png" alt="logo"></br>
+   <img width="160" src="img/logo.png" alt="logo"></br>
 
    <h1 width="95" align="center">Pakzat</h1>
 
@@ -7,27 +7,32 @@
 
 ----
 
+### **介绍**
 
-
-## Kroyf telegram bot是一个在python平台下运行，提供Telegram协议支持的高效率机器人库
-
-
-
-</div>
-
-------
-## 使用此程序需要必备特殊的网络环境
-------
-
-## 功能
-
-#### 从MySQL数据库中（全部表）搜索指定关键词,TG上也可以称为"猎魔查询",然后返回给用户。
-
-#### 可以高度自定义的Button
+Kroyf telegram bot是一个在python平台下运行，提供Telegram协议支持的高效率机器人库
 
 ------
 
-## 使用的第三方库
+### **功能**
+
+- #### 从MySQL数据库中（全部表）搜索指定关键词,TG上也可以称为"猎魔查询",然后返回给用户。
+
+- #### 可以高度自定义的Button
+
+
+------
+
+### 未来的发展
+
+- 桌面化
+- 接入AI (目前已完成,不久后会上线)
+- 集群化
+
+------
+
+
+
+### 使用的第三方库
 
 ```python
 import asyncio
@@ -59,20 +64,20 @@ async def create_pool():
 
 ------
 
-## 下载
+## 支持
 
-## <a href="[https://github.com/pakzat24/tg_bot/blob/main/Kroyf_TG-BOT.py](https://github.com/pake0224/Kroyf_tg_bot/releases/tag/TelegramBot)">Release</a>
-
-
+<img src="C:\pakzat_code\md\img\微信支付宝收款码二合一.png" style="zoom:50%;" />
 
 ------
 
 
 
-# 声明
+## **声明**
 
 > 此程序仅用来查询合法数据，开发此程序的目的是为了查询备忘数据和学习用途。因违法操作所带来的一切连带责任作者即本人概不负责。
 
 ------
 
-## 好用就给个⭐Star⭐
+### 最后
+
+好用就给个⭐Star⭐
