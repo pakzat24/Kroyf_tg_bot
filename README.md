@@ -65,7 +65,7 @@ async def create_pool():
 
 ## 支持
 
-<img src="C:\pakzat_code\md\img\微信支付宝收款码二合一.png" style="zoom:50%;" />
+<img src="img\微信支付宝收款码二合一.png" style="zoom:50%;" />
 
 ------
 
